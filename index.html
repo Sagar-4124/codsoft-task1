@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet'  href='style.css'>
+    <link rel='stylesheet'  href='mediaquery.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   <nav id="desktop-nav"nav>
+      <div class="logo">Sagar Salekar</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sagar Salekar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about"onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience"onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/sagar.jpg.png" alt="Sagar salekar">
+        </div>
+        <div class="section__text ">
+          <p class="section__text__p1">Hello I'm</p>
+          <h1 class="title">Sagar salekar</h1>
+          <p class="section__text__p2"> Frontend Developer</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" 
+            onclick="window.open('./assets/sagar1.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info </button>
+          </div>
+          <div id="socials-container">
+          <img 
+            src="./assets/linkedin.png" 
+            alt="my linkedin profile" 
+            class="icon"
+            onclick="location.href='https://linkedin.com/'">   
+          <img src="./assets/github.png" 
+            alt="my Github profile" 
+            class="icon" 
+            onclick="location.href='https://Github.com/'">     
+          </div>
+        </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1"> GET TO KNOW MORE  </p>
+      <h1 class="title"> About me  </h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assets/about-pic.png" 
+            alt="profile picture"
+             class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img 
+                      src="./assets/experience.png" alt="experience icon" 
+                      class="icon"/>
+                    <h3> experience</h3>
+                    <p> 2+ years <br> Frontend development</p>
+                </div>
+                <div class="details-container">
+                    <img 
+                       src="./assets/education.png" alt="Education"
+                       class="icon"/>
+                    <h3> education</h3>
+                    <p> BE degree <br> MSc degree</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Hoping to save her job, hard-partying attorney Molly Singer reenrolls at her old alma mater to befriend her boss's socially awkward son and take him from zero to campus hero. Aided by her best friend, Molly goes to battle with stuck-up hall monitors, boozed-up frat brothers and an old enemy in a hilarious quest through the past to save her future.</p>
+            </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon"
+      class="icon arrow " onclick="location.href='./#experience'"/>
+   
+
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developer</h2>
+            <div class="article-container">
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developer</h2>
+            <div class="article-container">
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>NodeJs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>Express Js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./assets//checkmark.png" 
+                  alt="experience icon" 
+                  class="icon"/>
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon"
+       class="icon arrow " onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./assets/project-1.png" 
+            alt="Project 1" 
+            class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+             Live demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./assets/project-2.png" 
+            alt="Project 2" 
+            class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+             Live demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+            src="./assets/project-3.png" 
+            alt="Project 3" 
+            class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+             Live demo
+            </button>
+          </div>
+        </div></div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon"
+      class="icon arrow " onclick="location.href='./#projects'"/>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon"/>
+          <p><a href="mailto:sagarsalekar25829@gmail.com">sagarsalekar25829@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+          <p><a href="https://www.linkedin.com">linkedin</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sagar Salekar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
